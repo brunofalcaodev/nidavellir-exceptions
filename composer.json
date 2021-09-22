@@ -1,0 +1,35 @@
+{
+    "name": "brunofalcaodev/nidavellir-exceptions",
+    "description": "Nidavellir Exceptions",
+    "keywords": [
+        "brunofalcaodev"
+    ],
+    "homepage": "https://github.com/brunofalcaodev/nidavellir-exceptions",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Bruno Falcão",
+            "email": "bruno.c.falcao@brunofalcao.me",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0",
+        "brunofalcaodev/nidavellir-cube": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nidavellir\\Exceptions\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
